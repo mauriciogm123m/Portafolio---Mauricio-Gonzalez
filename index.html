@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="inicio contenedor" id="inicio">
+        <h3>Hola, Soy</h3>
+        <h1>Mauricio González</h1>
+        <p>Ingeniero en sistemas</p>
+        <div class="contenedor-buttons">
+            <a href="cv/CV-Mauricio González Marulanda..pdf" download class="btn">
+                <i class="fa-solid fa-download"></i> Descargar CV
+            </a>
+            <a href="#contacto" class="btn btn2">Hablemos</a>
+        </div>
+        <div class="contenedor-img">
+            <img src="img/Mauro-Perfil.png" alt="">
+        </div>
+        <div class="contenedor-redes">
+            <a href="https://github.com/mauriciogm123m" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/_mauro_g.m" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/mauricio-gonzalez-88033b213" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <!--Menu navegación-->
+    <nav class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#inicio">
+                    <span class="icon"><i class="fa-solid fa-house"></i></span>
+                    <span class="text">Inicio</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#sobre-mi">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <span class="text">Sobre mi</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#experiencia">
+                    <span class="icon"><i class="fa-solid fa-sliders"></i></span>
+                    <span class="text">Experiencia</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#porfolio">
+                    <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
+                    <span class="text">Portafolio</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#contacto">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <span class="text">Contacto</span>
+                </a>
+            </li>
+
+            <div class="indicator"></div>
+        </ul>
+    </nav>
+
+    <!--Sobre mi-->
+    <div class="sobre-mi contenedor" id="sobre-mi">
+        <h2 class="titulo-seccion">Sobre Mí</h2>
+        <div class="fila">
+            <div class="contenedor-img col" data-aos="fade-right">
+                <img src="img/Mauro-perfil2.jpg" alt="">
+            </div>
+            <div class="info col" data-aos="fade-left">
+                <div class="contenedor-boxs">
+                    <div class="box">
+                        <p>Experiencia</p>
+                        <p class="num">1 año</p>
+                    </div>
+                    <div class="box">
+                        <p>Clientes</p>
+                        <p class="num">+100 satisfechos</p>
+                    </div>
+                    <div class="box">
+                        <p>Proyectos</p>
+                        <p class="num">+50 Completados</p>
+                    </div>
+                </div>
+                <p class="presentacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste temporibus, enim
+                    et dolorem, sequi optio quisquam consectetur fuga consequuntur, sint quia dignissimos itaque
+                    molestiae. Voluptate facere quo rerum at consectetur.</p>
+
+                <a href="#contacto" class="btn btn2">Contactame ahora</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Experiencia-->
+    <div class="experiencia contenedor" id="experiencia">
+        <h2 class="titulo-seccion">Experiencia</h2>
+        <div class="fila">
+            <div class="col" data-aos="zoom-in">
+                <h3>Desarrollador Front-End</h3>
+                <div class="info">
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">HTML</span>
+                        <span class="nivel">Intermedio</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">CSS</span>
+                        <span class="nivel">Intermedio</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">JAVASCRIPT</span>
+                        <span class="nivel">Intermedio</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">ANGULAR</span>
+                        <span class="nivel">Basico</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">TYPESCRIPT</span>
+                        <span class="nivel">Basico</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col" data-aos="zoom-in">
+                <h3>Desarrollador Back-End</h3>
+                <div class="info">
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">NODE JS</span>
+                        <span class="nivel">Intermedio</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">MONGO DB</span>
+                        <span class="nivel">Basico</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">BD RELACIONALES (MYSQL-SQL)</span>
+                        <span class="nivel">Experimentado</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">PYTHON</span>
+                        <span class="nivel">Basico</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">SPRINGBOOT</span>
+                        <span class="nivel">Basico</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col" data-aos="zoom-in">
+                <h3>DEVOPS</h3>
+                <div class="info">
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">AZURE DEVOPS</span>
+                        <span class="nivel">Intermedio</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">AWS</span>
+                        <span class="nivel">Basico</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">JENKINS / DEVSECOPS</span>
+                        <span class="nivel">Basico</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">GIT - GITHUB</span>
+                        <span class="nivel">Intermedio</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col" data-aos="zoom-in">
+                <h3>OTROS</h3>
+                <div class="info">
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">POWER AUTOMATE</span>
+                        <span class="nivel">Intermedio</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">SHAREPOINT</span>
+                        <span class="nivel">Basico</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">SERVICENOW</span>
+                        <span class="nivel">Basico</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">SAP (SuccessFactors, Data)</span>
+                        <span class="nivel">Intermedio</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="skill">Excel</span>
+                        <span class="nivel">Intermedio-Avanzado</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="titulo-seccion">Servicios</h2>
+        <div class="fila">
+            <div class="servicio">
+                <h2 class="titulo">Diseño UX/UI</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+            <div class="servicio">
+                <h2 class="titulo">Desarrollo Web</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+            <div class="servicio">
+                <h2 class="titulo">Creación de Contenido</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Porfolio-->
+    <div class="porfolio contenedor" id="porfolio">
+        <h2 class="titulo-seccion">Porfolio</h2>
+        <div class="fila">
+            <div class="item" data-aos="flip-left">
+                <img src="img/Demo0.jpg" alt="">
+                <p class="descripcion">Lorem ipsum dolor sit amet.</p>
+                <button class="btn">GitHub</button>
+                <button class="btn btn2">Ver Demo</button>
+            </div>
+            <div class="item" data-aos="flip-left">
+                <img src="img/Demo1.jpg" alt="">
+                <p class="descripcion">Lorem ipsum dolor sit amet.</p>
+                <button class="btn">GitHub</button>
+                <button class="btn btn2">Ver Demo</button>
+            </div>
+            <div class="item" data-aos="flip-left">
+                <img src="img/Demo2.jpg" alt="">
+                <p class="descripcion">Lorem ipsum dolor sit amet.</p>
+                <button class="btn">GitHub</button>
+                <button class="btn btn2">Ver Demo</button>
+            </div>
+            <div class="item" data-aos="flip-left">
+                <img src="img/Demo3.jpg" alt="">
+                <p class="descripcion">Lorem ipsum dolor sit amet.</p>
+                <button class="btn">GitHub</button>
+                <button class="btn btn2">Ver Demo</button>
+            </div>
+            <div class="item" data-aos="flip-left">
+                <img src="img/Demo4.jpg" alt="">
+                <p class="descripcion">Lorem ipsum dolor sit amet.</p>
+                <button class="btn">GitHub</button>
+                <button class="btn btn2">Ver Demo</button>
+            </div>
+            <div class="item" data-aos="flip-left">
+                <img src="img/Demo5.jpg" alt="">
+                <p class="descripcion">Lorem ipsum dolor sit amet.</p>
+                <button class="btn">GitHub</button>
+                <button class="btn btn2">Ver Demo</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Contacto-->
+    <div class="contacto contenedor" id="contacto">
+        <h2 class="titulo-seccion">Contacto</h2>
+        <div class="fila">
+            <div class="col">
+                <div class="item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>EMAIL</span>
+                    <span>mgonzalezma1311@gmail.com</span>
+                    <a href="mailto:mgonzalezma1311@gmail.com?subject=Contacto%20Portafolio&body=Hola%20Mauricio,"
+                        target="_blank" rel="noopener noreferrer">
+                        Envía un mensaje
+                    </a>
+                </div>
+                <div class="item">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>Whatsapp</span>
+                    <span>+57 3245136388</span>
+                    <a href="https://wa.me/573245136388?text=Hola%20Mauricio,%20vi%20tu%20portafolio%20y%20quiero%20hablar%20contigo"
+                        target="_blank" rel="noopener noreferrer">
+                        Envia un mensaje
+                    </a>
+                </div>
+            </div>
+            <div class="col formulario" data-aos="fade-up">
+                <form id="contact-form">
+                    <input type="text" name="user_name" placeholder="Ingresa tu nombre" required>
+                    <input type="email" name="user_email" placeholder="Ingresa tu correo" required>
+                    <textarea name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="btn btn2">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <span>CODIGO WEB</span>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mi</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#porfolio">Porfolio</a>
+        <a href="#contacto">Contacto</a>
+        <div class="footer-redes">
+            <a href="https://github.com/mauriciogm123m" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mauricio-gonzalez-88033b213" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_mauro_g.m" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="copy">&copy; 2025 Mauricio González – Todos los derechos reservados.</p>
+
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script src="script.js"></script>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,  // Duración en ms
+            once: true       // Solo anima la primera vez
+        });
+    </script>
+
+</body>
+
+</html>
