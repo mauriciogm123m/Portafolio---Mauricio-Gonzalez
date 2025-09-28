@@ -439,45 +439,111 @@ footer a{
     margin: 0 30px;
 }
 
-/*Sección Responsive*/
-@media only screen and (max-width: 1000px){
-    .contenedor{
+/* ============================
+   SECCIÓN RESPONSIVE
+   ============================ */
+
+/* Tablets grandes o pantallas medianas */
+@media only screen and (max-width: 1000px) {
+    .contenedor {
         padding: 0 20px;
     }
-    .porfolio .fila{
-        grid-template-columns: auto auto;
+    .porfolio .fila {
+        grid-template-columns: auto auto; /* 2 columnas */
     }
 }
-@media only screen and (max-width: 800px){
-    .sobre-mi .fila{
+
+/* Tablets pequeñas y pantallas medianas */
+@media only screen and (max-width: 800px) {
+    /* Sobre mí */
+    .sobre-mi .fila {
         display: block;
     }
-    .sobre-mi .fila .col{
+    .sobre-mi .fila .col {
         width: 100%;
         margin-bottom: 20px;
     }
-    .experiencia .fila{
+
+    /* Experiencia */
+    .experiencia .fila {
         display: block;
     }
-    .experiencia .fila .col{
+    .experiencia .fila .col {
         width: 100%;
         margin: auto;
+        margin-bottom: 20px;
     }
-    .experiencia .fila .servicio{
+    .experiencia .fila .servicio {
         width: 100%;
         display: block;
-        margin-bottom: 20px;   
+        margin-bottom: 20px;
     }
-    .porfolio .fila{
-        grid-template-columns: auto;
+
+    /* Portafolio */
+    .porfolio .fila {
+        grid-template-columns: auto; /* 1 columna */
     }
-    .contacto .fila{
+
+    /* Contacto */
+    .contacto .fila {
         display: block;
     }
-    .contacto .formulario{
+    .contacto .formulario {
         padding-left: 0;
     }
-    footer a{
+
+    /* Footer */
+    footer a {
         display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Celulares pequeños */
+@media only screen and (max-width: 600px) {
+    /* Tipografías más compactas */
+    h1 {
+        font-size: clamp(22px, 6vw, 28px);
+    }
+    h2, h3 {
+        font-size: clamp(18px, 5vw, 22px);
+    }
+    p, span {
+        font-size: clamp(14px, 3.5vw, 16px);
+    }
+
+    /* Imagen perfil */
+    .inicio .contenedor-img {
+        max-width: 220px;
+    }
+    .sobre-mi .fila .contenedor-img img {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* Experiencia / servicios */
+    .experiencia .fila .col,
+    .experiencia .fila .servicio {
+        padding: 15px 20px;
+    }
+
+    /* Inputs y textarea */
+    .contacto .formulario input,
+    .contacto .formulario textarea {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    /* Footer más compacto */
+    footer {
+        padding: 25px 10px;
+    }
+    footer a {
+        margin: 8px 0;
+        font-size: 14px;
+    }
+    .footer-redes a {
+        font-size: 20px;
+        margin: 0 8px;
     }
 }
