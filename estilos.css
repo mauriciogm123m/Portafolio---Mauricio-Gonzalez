@@ -381,12 +381,11 @@ body{
 
 /*Footer*/
 footer{
-    background-color: #161b22;
+    background-color: #3f516f;
     text-align: center;
     padding: 40px 20px;
-    margin-top: 40px;
+    margin-top: 20px;
     color: #fff;
-    border-top: 2px solid #2acf7f;
 }
 footer h2 {
     color: #2acf7f;
@@ -400,17 +399,17 @@ footer p {
 .footer-links {
     margin: 20px 0;
 }
-.footer-links a {
-    margin: 0 15px;
+footer .footer-links a {
     text-decoration: none;
     color: #91e0ba;
-    transition: color 0.3s;
+    margin: 0 10px;
+    font-size: 14px;
 }
 .footer-links a:hover {
     color: #2acf7f;
 }
 .footer-redes {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 .footer-redes a {
     margin: 0 10px;
